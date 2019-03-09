@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!--Import materialize.css-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <!-- Font Awesome cdn  -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+      crossorigin="anonymous"
+    />
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shivam portfolio</title>
+    <!-- Google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700%7CRoboto%7CJosefin+Sans:100,300,400,500"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- Scroll reveal animation -->
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body id="showcase" class="scrollspy">
+    <!-- Navbar -->
+    <div class="navbar-fixed">
+      <nav class="teal darken-2">
+        <div class="container">
+          <div class="nav-wrapper">
+            <a
+              href="#"
+              style="white-space: nowrap;"
+              class="brand-logo flow-text"
+              >Shivam-Portfolio</a
+            >
+            <a href="#" data-target="mobile-nav" class="sidenav-trigger">
+              <i class="material-icons">menu</i>
+            </a>
+            <ul class="right hide-on-med-and-down">
+              <li>
+                <a href="#showcase">Home</a>
+              </li>
+              <li>
+                <a href="#about">About</a>
+              </li>
+
+              <li>
+                <a href="#project">Project</a>
+              </li>
+              <li>
+                <a href="#contact">Contact</a>
+              </li>
+          
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <ul class="sidenav" id="mobile-nav" style="background:#0009;">
+      <li>
+        <img src="sk.jpg" alt="logo-img" /><br />
+        <h6 class="center white-text">Shivam Kumar Suman</h6>
+        <h6 class="center">
+          <div class="white-text"><i class="fas teal-text fa-map-marker-alt"></i>  Gaya, Bihar</div>
+        </h6>
+      </li>
+      <li></li>
+      <li>
+        <a class="white-text" href="#showcase"><i class="fas teal-text fa-home fa-2x"></i>Home</a>
+      </li>
+      <li>
+        <a class="white-text" href="#about"><i class="fas teal-text fa-2x fa-question-circle"></i>About</a>
+      </li>
+
+      <li>
+        <a class="white-text" href="#project"><i class="fas teal-text fa-2x fa-paperclip"></i>Project</a>
+      </li>
+      <li>
+        <a class="white-text" href="#contact"><i class="far teal-text fa-2x fa-comment-alt"></i>Contact</a>
+      </li>
+
+    </ul>
+
+    <!-- Showcase -->
+    <section id="showcase" class="scrollspy">
+      <div class="row">
+        <div class="col s12 m6">
+          <div class="showcase-content">
+            <h4 style="margin-bottom: -25px; padding-left: -70px;">Hello,</h4>
+            <h3 style="white-space: nowrap;">
+              I am
+              <strong class="teal-text">SHIVAM KUMAR</strong>
+            </h3>
+            <h4>WEB DEVELOPER</h4>
+            <div class="social-link">
+              <h4>
+                Contact- &nbsp;
+
+                <a href="https://github.com/shivamwebdevelopment/AdminStrap_theme" class="grey-text"
+                  ><i class="fab fa-github fa-2x"></i
+                ></a>
+
+                <a href="https://www.linkedin.com/feed/" class="grey-text"
+                  ><i class="fab fa-linkedin fa-2x"></i
+                ></a>
+
+                <a href="https://codepen.io/shivam27/" class="grey-text"
+                  ><i class="fab fa-codepen fa-2x"></i
+                ></a>
+
+                <a href="#!" class="grey-text"
+                  ><i class="fab fa-twitter fa-2x"></i
+                ></a>
+              </h4>
+            </div>
+            <a href="#" id="modalBtn" class="btn white-text waves-effect info"
+              >Read More</a
+            >
+            &nbsp;
+            <a href="#project" class="btn white-text waves-effect info">Project</a>
+          </div>
+        </div>
+        <div class="col s12 m6">
+          <div class="showcase-image">
+            <img
+              src="showcase-image.png"
+              class="materialboxed responsive-img"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Simple modal popup box -->
+    <div id="simpleModal" class="modal">
+      <div class="modal-content">
+        <span id="closeModal" class="closeBtn">&times;</span>
+        <div class="modal-header center">
+          <div><img src="sk.jpg" alt="modalImageId"></div>
+          <div><h3>Shivam Kumar</h3></div>
+          <div><i class="fas teal-text fa-map-marker-alt"></i> Gaya, Bihar</div>
+        </div>
+        <br />
+        <div class="modal-body">
+          <p class="flow-text">
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hi, I am a Frontend Web Developer having an experience 1+ year of website development. I have an experience in <strong>HTML5, CSS3 & CSS3 Framework-Materiallizecss and Bootstrap, JavaScript, jQuery, PHP, Wordpress and Photoshop</strong> . I design and develop responsive websites using the most current technologies to provide the best user experience while satisfying customer needs. I am problem solver, focus on how to make web application should work as well. Moreover I always learn something new to move forwards in life.
+          </p>
+        </div>
+ 
+      </div>
+    </div>
+
+    <!-- Testimonial -->
+    <section id="testimonial" class="white lighten-4 scrollspy">
+      <div class="container">
+        <p
+          class="testimonial-quote"
+          style="color: #333; font-size: 30px; font-weight: 550;"
+        >
+          "We love what we do and we do what our clients love & work with great
+          clients all over the world to create thoughful and purposeful
+          websites."
+        </p>
+        <p class="customer" style="color: #2229; font-size: 22px;">
+          - Shivam kumar
+        </p>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section section-icons center white lighten-4 scrollspy">
+      <div class="container">
+        <h2 style="text-shadow: 0 3px 12px rgba(0,0,0,0.4);">
+          About
+          <strong style="border-bottom: 2px solid teal" class="teal-text"
+            >Me</strong
+          >
+        </h2>
+        <br />
+        <div class="row">
+          <div class="col s12 m4 box1">
+            <div class="card-panel z-depth-5">
+              <i class="fas teal-text fa-university fa-6x"></i>
+              <h4>Education</h4>
+              <p class="left-align" style="font-size: 1.1rem;">
+               I have completed <strong>Intermediate and Graduation(Physics)</strong> in Gaya College, Gaya(Bihar) with an aggregate marks <strong>70% and 71%</strong>. My other education is <strong>Mobile Software and Hardware</strong> in Swaraj Software Institute. And I have some basic knowledge about <strong>DCA and Data Entry</strong> . In webdevelopment I have learn <strong>HTML5, CSS3, Javascript, Jquery, PHP, Python and css3 framework like Materiallizecss and Bootstrap</strong> by Online.
+              </p>
+            </div>
+          </div>
+          <div class="col s12 m4 box2">
+            <div class="card-panel z-depth-5">
+              <i class="far teal-text fa-heart fa-6x"></i>
+              <h4>Hobby</h4>
+              <p class="left-align" style="font-size: 1.1rem;">
+                I have passion to make website because i love to create website design and give a responsive dynamic website. My other hobby is that I love pencil sketching by listening to music alone, because this moments gives enjoyment and relief mind. And i like to travel many famous places to learn something about places.
+              </p>
+            </div>
+          </div>
+          <div class="col s12 m4 box3">
+            <div class="card-panel z-depth-5">
+              <i class="fas teal-text fa-cogs fa-6x"></i>
+              <h4>Skill</h4>
+              <p class="left-align" style="font-size: 1.1rem;">
+                 I always updated my skill in web development because it's my passion. I recently redesigned and develop <strong>my own portfolio website</strong>. It was a <strong>challenging</strong> but enjoyment experience that i really learned a lot from. I have no derive my skill because its not a suitable space to derive. You can check my skill in <a href="https://github.com/shivamwebdevelopment/AdminStrap_theme">Github website</a>. But one thing i say that i have better in frontend web development and some basic knowledge in backend website.  
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Background fixed image  -->
+    <section id="bg-image" class="section section-background center">
+      <div class="container">
+        <h3 class="bg-content">
+          <i class="fas black-text fa-quote-left"></i> Nature is the part of our life. Whenever ever you have pain share with nature it relief your mind. <i class="fas black-text fa-quote-right"></i><br>
+          <p style="font-size: 1.5rem; font-family: cursive; color: #333;"><strong>- Shivam Kumar</strong></p>
+        </h3>
+      </div>
+    </section>
+
+    <!-- Project -->
+    <section id="project" class="section section-project white lighten-4 scrollspy">
+      <div class="container">
+        <h2 class="center" style="text-shadow: 0 3px 12px rgba(0,0,0,0.4);">
+          Project
+          <strong style="border-bottom: 2px solid teal" class="teal-text"
+            >Cards</strong
+          >
+        </h2>
+        <br />
+        <div class="row">
+          <div class="col s12 m4 box1">
+            <div class="card z-depth-4">
+              <div class="card-image">
+                <img src="school.jpeg" alt="" />
+                <span class="card-title">School website</span>
+              </div>            
+              <div class="card-content">
+                <ul>               
+                  <h5>Resources -</h5>
+                    <h6><i class="fas fa-circle"></i> HTML5</h6>
+                    <h6><i class="fas fa-circle"></i> CSS3</h6>
+                    <h6><i class="fas fa-circle"></i> JavaScript</h6>
+                    <h6><i class="fas fa-circle"></i> jQuery</h6>
+                    <h6><i class="fas fa-circle"></i> Materiallizecss</h6>
+                    <h6><i class="fas fa-circle"></i> Fontawesome</h6>
+                    <h6><i class="fas fa-circle"></i> Images</h6>
+                </ul> <br>
+                <a href="#!" onclick="M.toast({html: 'Coming Soon', classes: 'rounded', inDuration: 100, displayLength: 1500})" class="btn waves-effect teal">Link</a>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m4 box2">
+            <div class="card z-depth-4">
+              <div class="card-image">
+                <img src="hospital1.jpeg" alt="" />
+                <span class="card-title">Hospital website</span>
+              </div>
+              <div class="card-content">
+                <ul>
+                    <h5>Resources -</h5>
+                    <h6><i class="fas fa-circle"></i> HTML5</h6>
+                    <h6><i class="fas fa-circle"></i> CSS3</h6>
+                    <h6><i class="fas fa-circle"></i> JavaScript</h6>
+                    <h6><i class="fas fa-circle"></i> jQuery</h6>
+                    <h6><i class="fas fa-circle"></i> Materiallizecss</h6>
+                    <h6><i class="fas fa-circle"></i> Fontawesome</h6>
+                    <h6><i class="fas fa-circle"></i> Images</h6>
+                </ul><br>
+                <a href="#!" onclick="M.toast({html: 'Coming Soon', classes: 'rounded', inDuration: 100, displayLength: 1500})" class="btn waves-effect teal">Link</a>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m4 box3">
+            <div class="card z-depth-4">
+              <div class="card-image">
+                <img src="travel.jpeg" alt="" />
+                <span class="card-title">Travel website</span>
+              </div>
+              <div class="card-content">
+                <ul>               
+                  <h5>Resources -</h5>
+                  <h6><i class="fas fa-circle"></i> HTML5</h6>
+                  <h6><i class="fas fa-circle"></i> CSS3</h6>
+                  <h6><i class="fas fa-circle"></i> JavaScript</h6>
+                  <h6><i class="fas fa-circle"></i> jQuery</h6>
+                  <h6><i class="fas fa-circle"></i> Materiallizecss</h6>
+                  <h6><i class="fas fa-circle"></i> Fontawesome</h6>
+                  <h6><i class="fas fa-circle"></i> Images</h6>
+                </ul><br>
+                <a href="#!" onclick="M.toast({html: 'Coming Soon', classes: 'rounded', inDuration: 100, displayLength: 1500})" class="btn waves-effect teal">Link</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+       <!-- Section: Contact -->
+       <section id="contact" class="section section-contact scrollspy">
+          <div class="container">
+              <h2 class="center" style="text-shadow: 0 3px 12px rgba(0,0,0,0.4);">
+                  Contact
+                  <strong style="border-bottom: 2px solid teal" class="teal-text"
+                    >Me</strong
+                  >
+                </h2> <br>
+            <div class="row">
+              <div class="col s12 m6 hoverable box1">
+                <div class="card-panel teal white-text center">
+                    <i style="text-shadow: 0 3px 10px rgba(0,0,0,0.3);" class="far fa-envelope fa-4x"></i>
+                  <h5 class="white-text">Get In Touch</h5>
+                  <p>"If you have any questions or comments, please use the form and i will get back to you as soon as possible!"</p>
+                </div>
+                <ul class="collection with-header">
+                  <li class="collection-header">
+                    <h4>Location</h4>
+                  </li>
+                  <li class="collection-item"><i class="fas teal-text fa-user"></i> &nbsp; Shivam Kumar</li>
+                  <li class="collection-item"><i class="fas teal-text fa-map-marked-alt"></i> &nbsp; Manpur Shivcharan-lane, Gaya(Bihar)</li>
+                  <li class="collection-item"><i class="fas teal-text fa-thumbtack"></i> &nbsp; Pin-Code-823003, India</li>
+                </ul>
+              </div>
+              <div class="col s12 m6 hoverable box3">
+                <div class="card-panel grey lighten-3">
+                  <h5>Please fill out this form</h5>
+               <div class="input-field">
+                 <input type="text" id="name">
+                 <label for="name" class="active">Name</label>
+               </div>
+               <div class="input-field">
+                 <input type="email" id="email" class="validate">
+                 <label for="email" class="active">Email</label>
+               </div>
+               <div class="input-field">
+                 <input type="text" id="phone">
+                 <label for="phone" class="active">Phone</label>
+               </div>
+               <div class="input-field">
+                 <textarea type="message" id="textarea" class="materialize-textarea"></textarea>
+                 <label for="textarea" class="active">Textarea</label>
+               </div>
+            
+               <input onclick="M.toast({html: 'Message sent', classes: 'rounded', inDuration: 100, displayLength: 1500})" type="submit" value="submit" class="btn">
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+     
+ 
+
+    <!-- Info -->
+
+   
+
+    <!-- Footer -->
+    <footer class="section black teal-text center">
+      <p class="flow-text footer-down">Shivam-Portfolio &copy: 2018</p>
+    </footer>
+    
+    <!-- Jquery -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script>
+      //sidenav
+      const sideNav = document.querySelector(".sidenav");
+      M.Sidenav.init(sideNav, {});
+
+      // Material Boxed
+      const mb = document.querySelectorAll(".materialboxed");
+      M.Materialbox.init(mb, {});
+
+      // scrollspy
+      const ss = document.querySelectorAll(".scrollspy");
+      M.ScrollSpy.init(ss, {});
+    </script>
+
+    <!-- Modal Box Popup -->
+    <script>
+      var modal = document.getElementById("simpleModal");
+      var closeBtn = document.getElementById("closeModal");
+      var modalBtn = document.getElementById("modalBtn");
+
+      // Open Event listener
+      modalBtn.addEventListener("click", openModal);
+      // Close Event listener
+      closeBtn.addEventListener("click", closeModal);
+
+      // open function
+      function openModal() {
+        modal.style.display = "block";
+      }
+      // close function
+      function closeModal() {
+        modal.style.display = "none";
+      }
+      // Window event listener
+      window.addEventListener("click", closeOutSide);
+
+      // Window function
+      function closeOutSide(e) {
+        if (e.target == modal) {
+          modal.style.display = "none";
+        }
+      }
+    </script>
+    <!-- Scroll animation  -->
+    <script>
+      window.sr = ScrollReveal();
+      sr.reveal(".showcase-content", {
+        duration: 1500,
+        origin: "left",
+        delay: "500",
+        distance: "350px"
+      });
+      sr.reveal(".showcase-image img", {
+        duration: 1000,
+        origin: "top",
+        distance: "600px"
+      });
+      sr.reveal("#testimonial", {
+        duration: 1500,
+        origin: "bottom",
+        distance: "300px",
+        viewFactor: 0.4
+      });
+      sr.reveal(".box1", {
+        duration: 2000,
+        distance: "300px",
+        origin: "left",
+        opacity: 0,
+        viewFactor: 0.4
+      });
+      sr.reveal(".box2", {
+        duration: 2000,
+        distance: "100px",
+        origin: "bottom",
+        opacity: 0,
+        viewFactor: 0.4
+      });
+      sr.reveal(".box3", {
+        duration: 2000,
+        distance: "300px",
+        origin: "right",
+        opacity: 0,
+        viewFactor: 0.4
+      });
+      sr.reveal('.bg-content',{
+        duration: 1500,
+        distance: '350px',
+        origin: 'bottom',
+        opacity: 0,
+        viewFactor: 0.4
+      })
+      sr.reveal(".about-info", {
+        duration: 2000,
+        distance: "300px",
+        origin: "right",
+        opacity: 0,
+        viewFactor: 0.5
+      });
+      sr.reveal(".btn", {
+        duration: 3000,
+        opacity: 0,
+        viewFactor: 0.5
+      });
+      sr.reveal(".info-left", {
+        duration: 3000,
+        distance: "300px",
+        origin: "left",
+        viewFactor: 0.5
+      });
+      sr.reveal(".info-right", {
+        duration: 3000,
+        opacity: 0,
+        distance: "300px",
+        origin: "right",
+        viewFactor: 0.5
+      });
+      sr.reveal(".contact-left", {
+        duration: 2000,
+        distance: "300px",
+        origin: "left",
+        opacity: 0,
+        viewFactor: 0.6
+      });
+      sr.reveal(".contact-right", {
+        duration: 2000,
+        distance: "300px",
+        origin: "right",
+        opacity: 0,
+        viewFactor: 0.6
+      });
+      sr.reveal(".footer-down", {
+        duration: 2000,
+        distance: "100px",
+        origin: "bottom",
+        viewFactor: 0.6
+      });
+    </script>
+  </body>
+</html>
